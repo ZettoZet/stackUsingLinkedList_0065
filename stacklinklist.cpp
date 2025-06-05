@@ -53,5 +53,6 @@ public:
 
         cout << " popped value: " << temp->data << endl;
         top = temp->next; // Update the top pointer to the next node
-        
+        delete temp;      // Delete the temporary pointer to free memory
+    }
 };

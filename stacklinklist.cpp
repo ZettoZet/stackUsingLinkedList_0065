@@ -51,5 +51,7 @@ public:
             return; // If the stack is empty, print a message and return
         }
 
-    }
+        cout << " popped value: " << temp->data << endl;
+        top = temp->next; // Update the top pointer to the next node
+        
 };

@@ -60,6 +60,26 @@ public:
     // Peek/top operation: Retrieve the value of the topmost element without removing it
     void peek()
     {
-        
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+            return; // If the stack is empty, print a message and return
+        }
+        else
+        {
+            // menampilkan semua elemen
+            // Node *current = top;
+            // while (current != NULL)
+            // {
+            //     cout << current->data << " " << endl;
+            //     current = current->next;
+            // }
+            // cout << endl;
+
+            //menampilkan elemen teratas
+            cout << top->data << " " << endl;
+
+        } // return the value of the top node
     }
 };
+

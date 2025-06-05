@@ -57,5 +57,9 @@ public:
         temp = nullptr;   // free the memory of the popped node
     }
 
-    
+    // Peek/top operation: Retrieve the value of the topmost element without removing it
+    void peek()
+    {
+        
+    }
 };

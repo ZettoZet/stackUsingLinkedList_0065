@@ -45,5 +45,11 @@ public:
     void pop()
     {
         Node *temp = top; // Create a temporary pointer to the current top node
+        if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return; // If the stack is empty, print a message and return
+        }
+
     }
 };

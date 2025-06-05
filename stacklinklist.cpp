@@ -35,5 +35,9 @@ public:
         return value;
     }
 
-    
+    // IsEmpty operation Check if the stack is empty
+    bool isEmpty()
+    {
+
+    }
 };
